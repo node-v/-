@@ -1,0 +1,151 @@
+@charset "utf-8";
+.footer{
+    position: relative;
+    padding: 60px 0;
+    font-size: 14px;
+    display: block;
+}
+//上边的大盒子
+   .ter-nav{
+    width:1200px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    
+    
+}
+//左边的盒子
+.ter-directory{ 
+    float: left;
+    overflow: hidden;
+    width: 62%;
+    
+}
+.ter-directory dl{
+    width:164px;
+    float: left;
+    position: relative;
+    display: block;
+   
+}
+.ter-directory dt{
+    display: block;
+    position: relative;
+    line-height:1;
+    margin-bottom: 10px;
+    color:#333 ;
+    cursor: pointer;
+}
+.ter-directory dd{
+    display: block;
+    line-height:2;
+    color: #666666;
+     overflow: hidden;  
+     margin-right: 1em;
+}
+.ter-nav .ter-directory dl dd a{
+     color:#666 ;
+     overflow: hidden;
+     white-space: nowrap;
+}
+
+//右边的盒子
+.ter-service{
+//  width: 173px;
+//  height: 156px;
+    float: right;
+    text-align: right;
+
+}
+.ter-oppo{
+//  width: 173px;
+//  height: 51px;
+   margin-top: -5px;
+   margin-bottom: 20px;
+}
+.ter-oppo a{
+    color: #fff;
+    background-color: #666;
+    text-align:center;
+    width: 173px;
+    height: 51px;
+    line-height: 51px;
+    border-radius: 25.5px;
+    display: inline-block;
+    margin-bottom: 0;
+
+}
+.icon span{
+    display: inline-block;
+   font-size: 15px;
+   
+}
+.ter-tel{
+    display: block
+}
+
+.ter-tel p{
+    font-size: 14px;
+    color: #828282;
+}
+
+.ter-tel h3{
+    font-size: 24px;
+    line-height: 1;
+    font-weight: normal;
+    color: #333;
+    margin:15px 0 7px 0;
+}
+
+
+//下面的盒子
+.ter-bottom{
+   display: flex;
+    position: relative;
+    width: 1200px;
+    margin: 72px auto 0 auto;
+    padding-top: 24px;
+    color: #98979A;
+    border-top:1px #ebebeb solid;
+}
+
+.ter-bottom-one{
+    flex: 1;
+    font-size: 13px;
+    line-height: 25px;
+ 
+}
+.ter-bottom-one a{
+    color: inherit;
+}
+.ter-bottom-two{
+     font-size: 13px;
+    text-align: right;
+    padding-left: 2em;
+}
+.ter-bottom-two a{
+     color: #999;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+//.ter-bottom-two a span{
+// font-size: 13px;
+//  padding-left: .5em;
+//  display: inline-block;
+//  vertical-align: middle;
+//}
+.ter-bottom-two .text{
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+
+
+
+

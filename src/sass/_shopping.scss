@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+//.tiff{
+//  display: block;
+//}
+.twolist{
+    width:100%;
+    height: 316px;
+    background: #f4f4f4;
+    z-index: 5;
+    position: absolute;
+    ul{
+        width:1000px;
+        height: 200px;
+        margin:0 auto;
+      li{
+        width: 200px;
+        height: 200px;
+        margin-top: 51px;
+        margin-right: 49px;
+        img{
+            width: 200px;
+        height: 200px;
+        }
+    }
+    
+    }
+}
+.lunbo-box{
+    width: 1349px;
+    height:562px;
+    position: relative;
+    z-index: 1;
+    img{
+        width: 100%;
+        height:562px;
+        display: block;  
+    }
+    ol{
+    position:absolute;
+    right:45%;
+    bottom: 5%;
+    li{
+      width: 15px;
+      height: 15px;
+      background: #ccc;
+      float: left;
+      margin-right: 10px;
+      border-radius: 50%;
+      text-indent: -99999px;
+      cursor: pointer;  
+    }
+}
+}
+.lunbo-box ul li{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    opacity:0;
+  
+}
+.lunbo-box ol li.active{
+                background: orange;
+        }
+        
+.shop-content-floor{
+    padding-top: 60px;
+    width:100%;
+    height: auto;
+     background-color:#f4f4f4;
+}
+.zhutui{
+    width:900px;
+    height:480px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+img{
+    width:900px;
+    height:480px;
+}
+}
+.title-box{
+    width:400px;
+    height:260px;
+    position: absolute;
+    top:30%;
+    right: 0;
+    color: white;
+    text-align: center;
+    
+    h3{
+        font-size:22px;
+        margin-bottom:8px;   
+    }
+    h4{
+        font-size:32px;
+        margin-bottom:20px; 
+    }
+    a{
+        display:inline-block;
+        width:148px ;
+        height: 44px;
+        line-height: 44px;
+        background: #05B570;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        border-radius: 19px;
+    }
+}
+.pro-price{
+    font-size: 22px;
+     margin-bottom:20px; 
+}
+.youhui,.cituiyouhui{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 77px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 9;
+    display: inline-block;
+    color: #f79a47;
+    border: 1px solid #f79a47;
+}
+.ctbox{
+    width:900px;
+    margin: 0 auto;
+}
+.ct{
+    display: inline-block;
+    width: 437px;
+    height: 580px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom:20px;
+    background-color: white;
+.ctlist{
+    position: absolute;
+    top:30px;
+    left: 0;
+    z-index: 1;
+    img{
+    width: 100%;
+    height: 100%;
+    }
+}
+}
+
+.ctt-title-box{
+    width: 437px;
+    height: 152px;
+    position: absolute;
+    text-align: center;
+    margin:40px 20px 20px ;
+     h3{
+        font-size:35px;
+        margin-bottom:11px; 
+        margin-top: 11px;  
+    }
+    h4{
+        font-size:24px;
+        margin-bottom:20px; 
+       
+    }
+    h5{
+        font-size:24px;
+    }
+}
+ .sup-parts-container {
+   width: 900px;
+   height: 34px;
+   margin: 0 auto;
+   position: relative;
+ 
+.sup-swiper-name{
+        display: inline-block;
+        position: absolute;
+        left: 0;
+       font-size: 27px;
+}
+.sup-swiper-container{ 
+        color:#666; 
+        position: absolute;
+        right: 0;      
+.swiper-slide {
+    flex: 0 0 auto;
+    cursor: pointer;
+    line-height: 34px;
+    padding: 0 16px;
+    display: inline-block;
+    font-size: 16px;
+}
+}
+}
+.parts-slide{
+    color: #06B570;
+    background: #ffffff;
+    border-radius: 18px;
+}
+.no-effet-product-data{
+    padding-top: 32px;
+    padding-bottom: 23px;
+}
+.fittings{
+    width: 900px;
+    height: auto;
+    margin:0 auto;
+    position:relative;
+    display: none;
+}
+.show{
+    display: block;
+}
+.pj1{
+    
+    margin-right:7px;
+    width:457px;
+    height:380px;
+}
+.ctt-title-box1{
+    width: 219px;
+    height: 23px;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top:0;
+    margin-top:25%;
+    h4{
+        font-size:26px;
+        margin-bottom: 20px;
+    }
+     h5{
+        font-size:26px;
+        margin-bottom: 20px;
+    }
+}
+.pj{
+      margin-right:5px;
+     width:208px;
+    height:380px;
+}
+.ctt-title-box2{
+        margin-top: 44px;
+    position: absolute;
+    width:208px;
+    height:40px;
+    text-align: center;
+    h4{
+        font-size: 20px;
+        margin-top: 20px;
+         margin-bottom: 10px;
+    }
+    h5{
+        font-size:20px;   
+    }    
+}
+.pj4,.pj5,.pj6,.pj7{
+    margin-right:13px;
+}

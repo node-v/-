@@ -1,0 +1,144 @@
+.box2{
+    position: relative;
+    width: 960px;
+    margin: 0 auto 44px;
+    background: #fff;
+    box-sizing: border-box;
+    }
+.box2_header{
+    width: 920px;
+    height: auto;
+    text-align: center;
+   
+    p{
+    font-family: MyriadPro-Semibold;
+    font-size: 20px;
+    color: #000;
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 70px;
+    }
+    
+.regions1{
+        margin-top: 36px;
+}
+.zoneInput1 {
+    position: relative;
+    width: 342px;
+    margin: 9px auto;
+}    
+    
+    
+}
+.box2_content{
+    text-align: center;
+    width: 960px;
+    height: 443px;
+}
+
+.zoneInput1_select1 {
+    padding: 0 10px 0 90px;
+    text-indent: 16px;
+}
+.zoneInput1 input {
+    display: block;
+    width: 342px;
+    height: 48px;
+    margin-top:20px;
+    margin: 9px auto;
+    background: #f7f7f7;
+    border-radius: 9px;
+    border: none;
+    box-sizing: border-box;
+    text-indent: 16px;
+    font-size: 14px;
+    color: #000;
+}
+ .region1_tip1 {
+    width: 342px;
+    margin: 6px auto 12px;
+    opacity: .4;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+.input1_zone1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 77px;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    padding-right: 22px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+
+.input1_error1_tip1 {
+    display: none;
+    font-size: 12px;
+    color: #ec5b66;
+    margin-top: 6px;
+}
+
+.codeWrap1{
+    position: relative;
+    width: 342px;
+    margin: 9px auto;
+      input {
+    width: 210px;
+    margin:0px;
+}
+}
+.input1_code1 {
+    position: absolute;
+    height: 48px;
+    line-height: 48px;
+    min-width: 120px;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    border: 1px solid #2ad181;
+    background-color: #2ad181;
+    border-radius: 9px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.agreements {
+    position: relative;
+    width: 342px;
+    margin: 12px auto 0;
+    font-family: FZYOUH_508R--GB1-4;
+    font-size: 13px;
+    color: #9b9b9b;
+    line-height: 14px;
+    padding-left: 22px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    a {
+    color: #2ad181;
+    cursor: pointer;
+}
+   img{
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -2px;
+    left: 0;
+}
+}
+.button.primary_btn.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}

@@ -1,0 +1,282 @@
+@charset "utf-8";
+h1,h2,h3,h4,h5,h5,h6,dl,dt,dd,ol,p,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+em, i, strong {
+    font-style: normal;
+}
+
+
+.pi-navigation {
+    height: 58px;
+    line-height: 58px;
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: middle;
+    }
+   .pi-details{
+    width: 1200px;
+    position: relative;
+    display: flex;
+    min-height: 800px;
+   }
+.left{
+        padding-top: 40px;
+        width: 46vw;
+        max-width: 560px;
+}
+.leftdt{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    overflow: hidden;
+}
+.leftdt img{
+        width: 100%;
+    height: auto;
+}
+
+.leftxt{
+    position: relative;
+    margin-top: 40px;
+}
+.pic-list{
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.pic-list li{
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.pic-list li img{
+    opacity: 1;
+        width: 60px;
+        height: 60px;
+}
+.right{
+    max-width: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 46%;
+    position: relative;
+    display: inline-block;
+    padding-top: 80px;
+    background-color: #fff;
+}
+.right-title{
+    text-align: left;
+    border-bottom: 1px solid #EDEDED;
+}
+
+
+.right-title .name{
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 7px;
+}
+.text{
+    position: relative;
+    display: inline-block;
+    color: #a0a0a0;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.price{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    span{
+        font-size: 21px;
+    }
+}
+.support{
+        margin-bottom: 30px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+//中间
+.right-list{
+        padding-bottom: 30px;
+}
+
+.config-name{
+    font-size: 14px;
+    line-height: 14px;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn-list{
+    cursor:pointer;
+    display: flex;
+    margin: -10px;
+    flex-wrap: wrap;
+}
+.oc-radio{
+    width: 236px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #dce1e4;
+    margin: 10px;
+    
+}
+.btn-list .paymethod-radio{
+    width: 159px;
+    height: 62px;
+}
+.swatch{
+    display: block;
+}
+.radio-color{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 0;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.radio-text{
+    position: relative;
+    height: 42px;
+    font-size: 16px;
+    color: #333;
+}
+.original{
+    color: #b7b7b7;
+    text-decoration: line-through;
+}
+
+.config-name .protocol{
+    display: none;
+}
+.gift-list {
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+.gift-list .gift-item {
+    position: relative;
+    width: 33%;
+    height: 90px;
+    padding-top: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+.gift-list .gift-item a img {
+    width:42px;
+    height:42px;
+    
+}
+.btn-list .oc-radio p{
+    font-size: 14px;
+    line-height:14px;
+}
+.oc-radio p.fee {
+    color: #FF763D;
+    }
+.oc-input-number {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #dce1e4;
+    width: 196px;
+    height: 44px;
+    overflow: hidden;
+}
+ .input-number-input {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    overflow: hidden;
+}
+ .input-number-input input {
+    text-align: center;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 11px 23px;
+    line-height: 1;
+}
+.oc-input-number .input-number-add {
+    color:#ccc;
+    font-size: 32px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    width: 70px;
+    height: 42px;
+}
+.oc-input-number .input-number-minus {
+    position: absolute;
+    left: 0;
+    top:-12px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    width: 70px;
+    height: 42px;
+     color:#ccc;
+    font-size: 48px;
+}
+
+.buying-btn-list {
+    margin: -20px;
+}
+
+.btn-size-master,.btn-lesser {
+    width: 196px;
+    height: 60px;
+    line-height: 60px;
+      color: #fff;
+    background-color: #05B570;
+    font-size: 16px;
+}
+.btn-lesser {
+    color: #666;
+    background-color: #F4F4F4;
+}
+.oc-btn {
+    text-align: center;
+     margin: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.oc-btn {
+    border-radius: 4px;
+}

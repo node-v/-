@@ -1,0 +1,37 @@
+@charset "utf-8";
+#container{
+    img{
+        width:100%;
+    }
+}
+.bjt-2{
+    position: relative;
+    display: inline-block;
+    width: 1353px;
+    height: 608px;
+}
+
+
+.bejt-2-list li{
+     width:672px;
+    height: 300px;
+    position: relative;
+    margin-top:4px;
+    overflow: hidden;
+}
+.bejt-2-list li:nth-of-type(1){
+     margin-right: 4px;
+}
+.bejt-2-list li:nth-of-type(3){
+     margin-right: 4px;
+}
+.bejt-2-list div{
+    width:672px;
+    height: 300px;
+}
+
+.bejt-2-list li div img{
+    width:913px ;
+    height: 300px;
+    display: block;
+}
